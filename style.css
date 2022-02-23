@@ -1,0 +1,12 @@
+.navbar .nav-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav-item {
+  display: flex;
+}
