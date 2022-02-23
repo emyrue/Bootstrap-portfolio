@@ -127,7 +127,9 @@
               </div>
             </div>
         </section>
-        <section>
+        <section style="position:relative">
+          <img src="./images/Boats-left.png" alt="" style="position: absolute;">
+          <img src="./images/Crane.svg" alt="" style="position: absolute; right: 0;">
           <div class="text-center">
             <h2>About Me</h2>
             <div class="row">
@@ -179,6 +181,23 @@
             </div>
           </div>
         </div>
+        </section>
+        <section>
+          <div class="row m-5">
+            <p class="col">I'm always interested in hearing 
+              about new projects, so if you'd like to 
+              chat please get in touch.</p>
+              <form class="col" action="">
+                <div class="row">
+                  <input class="col-5 border-light m-1" type="text" placeholder="Full name" required>
+                  <input class="col-5 border-light m-1" type="text"placeholder="Last name" required>
+                  <input class="border-0 m-2" type="email" placeholder="Email" required style="display: block;">
+                  <textarea name="message" id="" cols="15" rows="3" placeholder="Enter your text" required></textarea>
+                  <button class="btn btn-success mt-2 col-3">Get in Touch</button>
+                </div>
+              </form>
+          </div>
+         
         </section>
         <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
         <script src="js/bootstrap.js"></script> 
