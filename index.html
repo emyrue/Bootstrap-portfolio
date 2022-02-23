@@ -1,35 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bootstrap Portfolio</title>
-        <link rel="stylesheet" src="css/bootstrap.css">
+        <title>For Fun</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-          <nav class="nav nav-pills nav-justified m-2">           
-              <a class="nav-link" href="#">link</a>       
-              <a class="nav-link" href="#">Link</a>          
-          </nav>
-          <nav class="destop-nav">
-            <ul class="nav mt-0 justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <nav class="nav d-md-none justify-content-between">
+            <a class="nav-link text-success" href="#">Welcome</a>
+            <a class="nav-link" href="#">
+                <img alt="menu" src="./images/hamburger.png">
+            </a>
+        </nav>
+        <nav class="nav nav-pills justify-content-center desktop-navbar">
+            <a class="nav-link text-success p-4" href="#">Portfolio</a>
+            <a class="nav-link text-success p-4" href="#">About</a>
+            <a class="nav-link text-success p-4" href="#">Contact</a>
+        </nav>
+        <section class="d-flex flex-column justify-content-center bg-image"
+        style="background-image: url('./images/header-illustration.png'); height: 700px; background-size: 100vw;">
+            <h1 class="mx-auto" style="font-size: 80px;">Hey there. I'm Emily.</h1>
+            <h2 class="mx-auto text-success" style="font-size: 70px;">I'm a software developer.</h2>
+            <div class="row">
+                <p class="mx-auto col-md-6 text-center" style="font-size: 20px;">
+                    I can help you build a product, 
+                    feature or website. Look through 
+                    some of my work and experience! 
+                    If you like what you see and 
+                    have a project you need coded, 
+                    don’t hestiate to contact me.
+                </p>
+            </div>
+            <div class="row justify-content-center m-5">
+                <img style="width: 65px;" src="./images/icons/icons/icon1.png">
+                <img style="width: 65px;" src="./images/icons/icons/icon2.png">
+                <img style="width: 65px;" src="./images/icons/icons/icon3.png">
+                <img style="width: 65px;" src="./images/icons/icons/icon4.png">
+                <img style="width: 65px;" src="./images/icons/icons/icon5.png">
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script> 
     </body>
 </html>
