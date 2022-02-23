@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .desktop-navbar {
       display: none;
   }
@@ -18,4 +18,9 @@
   h2 {
     font-size: 70px;
   }
-} */
+}
+
+.placeholder {
+  width: 400px;
+  height: 300px;
+}
