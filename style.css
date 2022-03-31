@@ -1,0 +1,29 @@
+section {
+  overflow-x: hidden;
+}
+
+.body {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .desktop-navbar {
+      display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+}
+
+.placeholder {
+  height: 300px;
+}
